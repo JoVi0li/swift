@@ -21,6 +21,9 @@
 		6C48DCEA298B2DFC005B9259 /* CategoryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DCE9298B2DFC005B9259 /* CategoryComponent.swift */; };
 		6C48DCED298B34A9005B9259 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DCEC298B34A9005B9259 /* CategoryModel.swift */; };
 		6C48DCEF298B3C13005B9259 /* CharComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DCEE298B3C13005B9259 /* CharComponent.swift */; };
+		6CB8E3B2298C3F150034F908 /* application.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CB8E3B1298C3F150034F908 /* application.json */; };
+		6CB8E3B6298C43370034F908 /* CharModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8E3B5298C43370034F908 /* CharModel.swift */; };
+		6CB8E3B8298C6F490034F908 /* CharListHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8E3B7298C6F490034F908 /* CharListHeaderComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		6C48DCE9298B2DFC005B9259 /* CategoryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryComponent.swift; sourceTree = "<group>"; };
 		6C48DCEC298B34A9005B9259 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		6C48DCEE298B3C13005B9259 /* CharComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharComponent.swift; sourceTree = "<group>"; };
+		6CB8E3B1298C3F150034F908 /* application.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = application.json; path = ../../../../../../../Downloads/application.json; sourceTree = "<group>"; };
+		6CB8E3B5298C43370034F908 /* CharModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharModel.swift; sourceTree = "<group>"; };
+		6CB8E3B7298C6F490034F908 /* CharListHeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharListHeaderComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +78,10 @@
 		6C48DC9C298B1322005B9259 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
-				6C48DCEB298B2E08005B9259 /* Views */,
-				6C48DCE6298B1A49005B9259 /* Models */,
 				6C48DCD7298B16BE005B9259 /* Shared */,
+				6CB8E3B0298C3EFA0034F908 /* Data */,
+				6C48DCE6298B1A49005B9259 /* Models */,
+				6C48DCEB298B2E08005B9259 /* Views */,
 				6C48DCDA298B17E2005B9259 /* Info.plist */,
 				6C48DC9D298B1322005B9259 /* MarvelApp.swift */,
 				6C48DCA1298B1322005B9259 /* Assets.xcassets */,
@@ -97,6 +104,7 @@
 				6C48DCAC298B13D2005B9259 /* AppBarView.swift */,
 				6C48DCE9298B2DFC005B9259 /* CategoryComponent.swift */,
 				6C48DCEE298B3C13005B9259 /* CharComponent.swift */,
+				6CB8E3B7298C6F490034F908 /* CharListHeaderComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 			children = (
 				6C48DCE7298B1A60005B9259 /* Colors.swift */,
 				6C48DCEC298B34A9005B9259 /* CategoryModel.swift */,
+				6CB8E3B5298C43370034F908 /* CharModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,6 +147,14 @@
 				6C48DC9F298B1322005B9259 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6CB8E3B0298C3EFA0034F908 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6CB8E3B1298C3F150034F908 /* application.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +219,7 @@
 				6C48DCE4298B189A005B9259 /* gilroy-bold.ttf in Resources */,
 				6C48DCE5298B189A005B9259 /* gilroy-heavy.ttf in Resources */,
 				6C48DCA2298B1322005B9259 /* Assets.xcassets in Resources */,
+				6CB8E3B2298C3F150034F908 /* application.json in Resources */,
 				6C48DCE1298B189A005B9259 /* gilroy-medium.ttf in Resources */,
 				6C48DCE3298B189A005B9259 /* gilroy-semibold.ttf in Resources */,
 				6C48DCE2298B189A005B9259 /* gilroy-regular.ttf in Resources */,
@@ -220,6 +238,8 @@
 				6C48DCE8298B1A60005B9259 /* Colors.swift in Sources */,
 				6C48DCEA298B2DFC005B9259 /* CategoryComponent.swift in Sources */,
 				6C48DC9E298B1322005B9259 /* MarvelApp.swift in Sources */,
+				6CB8E3B8298C6F490034F908 /* CharListHeaderComponent.swift in Sources */,
+				6CB8E3B6298C43370034F908 /* CharModel.swift in Sources */,
 				6C48DCEF298B3C13005B9259 /* CharComponent.swift in Sources */,
 				6C48DCAD298B13D2005B9259 /* AppBarView.swift in Sources */,
 			);

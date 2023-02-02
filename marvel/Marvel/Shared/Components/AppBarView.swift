@@ -11,7 +11,7 @@ struct AppBarView: View {
     var body: some View {
         HStack {
             Menu() {
-                
+                Text("opa")
             } label: {
                 Image("menu")
             }
@@ -20,6 +20,7 @@ struct AppBarView: View {
             Spacer()
             Image("search")
         }
+        .padding()
         
     }
 }
