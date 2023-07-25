@@ -9,10 +9,26 @@ import UIKit
 
 class QuestionViewController: UIViewController {
 
+    @IBOutlet weak var questionTitleLabel: UILabel!
+    
+    @IBAction func onPressedQuestionAnswerButton(_ sender: UIButton) {
+    }
+    
+    @IBOutlet var questionButtons: [UIButton]!
+    
+    func setupLayout() {
+        navigationItem.hidesBackButton = true
+        
+        for button in questionButtons {
+            button.layer.cornerRadius = 12
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupLayout()
+        
     }
     
 
