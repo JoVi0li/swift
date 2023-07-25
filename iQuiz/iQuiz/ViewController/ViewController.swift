@@ -8,11 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     @IBOutlet weak var initQuizButton: UIButton!
-    
     @IBAction func onTouch(_ sender: Any) {
-        print("touch")
     }
     
     override func viewDidLoad() {
@@ -22,8 +19,8 @@ class ViewController: UIViewController {
     
     func setLayout() {
         initQuizButton.layer.cornerRadius = 12.0
+        navigationItem.hidesBackButton = true
     }
-
 
 }
 

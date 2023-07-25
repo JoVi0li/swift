@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C447D6B2A6F646E0021FDCA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C447D6A2A6F646E0021FDCA /* Question.swift */; };
+		6C447D6D2A6F6C490021FDCA /* PerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C447D6C2A6F6C490021FDCA /* PerformanceViewController.swift */; };
+		6C447D722A6F74910021FDCA /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C447D712A6F74910021FDCA /* UIColor+.swift */; };
 		6C9C94762A6E16900026B71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C94752A6E16900026B71F /* AppDelegate.swift */; };
 		6C9C94782A6E16900026B71F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C94772A6E16900026B71F /* SceneDelegate.swift */; };
 		6C9C947A2A6E16900026B71F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C94792A6E16900026B71F /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C447D6A2A6F646E0021FDCA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		6C447D6C2A6F6C490021FDCA /* PerformanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceViewController.swift; sourceTree = "<group>"; };
+		6C447D712A6F74910021FDCA /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		6C9C94722A6E16900026B71F /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9C94752A6E16900026B71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C9C94772A6E16900026B71F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C447D6E2A6F741F0021FDCA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C94792A6E16900026B71F /* ViewController.swift */,
+				6C9C94892A6E1D250026B71F /* QuestionViewController.swift */,
+				6C447D6C2A6F6C490021FDCA /* PerformanceViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6C447D6F2A6F742B0021FDCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C447D6A2A6F646E0021FDCA /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C447D702A6F74770021FDCA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6C447D712A6F74910021FDCA /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6C9C94692A6E16900026B71F = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +90,15 @@
 		6C9C94742A6E16900026B71F /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				6C447D702A6F74770021FDCA /* Extensions */,
+				6C447D6F2A6F742B0021FDCA /* Model */,
+				6C447D6E2A6F741F0021FDCA /* ViewController */,
 				6C9C94752A6E16900026B71F /* AppDelegate.swift */,
 				6C9C94772A6E16900026B71F /* SceneDelegate.swift */,
-				6C9C94792A6E16900026B71F /* ViewController.swift */,
 				6C9C947B2A6E16900026B71F /* Main.storyboard */,
 				6C9C947E2A6E16920026B71F /* Assets.xcassets */,
 				6C9C94802A6E16920026B71F /* LaunchScreen.storyboard */,
 				6C9C94832A6E16920026B71F /* Info.plist */,
-				6C9C94892A6E1D250026B71F /* QuestionViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -141,10 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C447D6B2A6F646E0021FDCA /* Question.swift in Sources */,
 				6C9C947A2A6E16900026B71F /* ViewController.swift in Sources */,
 				6C9C94762A6E16900026B71F /* AppDelegate.swift in Sources */,
 				6C9C948A2A6E1D250026B71F /* QuestionViewController.swift in Sources */,
 				6C9C94782A6E16900026B71F /* SceneDelegate.swift in Sources */,
+				6C447D6D2A6F6C490021FDCA /* PerformanceViewController.swift in Sources */,
+				6C447D722A6F74910021FDCA /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
